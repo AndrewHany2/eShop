@@ -4,10 +4,6 @@ import { Card } from "react-bootstrap";
 import Rating from "./Rating";
 
 function Product({ product }) {
-  useEffect(() => {
-    console.log(product);
-  }, [product]);
-
   return (
     <>
       <Card className="my-3 p-3 rounded">
