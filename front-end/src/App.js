@@ -33,7 +33,7 @@ function App() {
             exact
           />
           <Route path="/search/:keyword" component={HomeScreen} />
-          <Route path="/product/:id" component={ProductScreen} />
+          <Route path="/product/:id" component={ProductScreen} exact />
           <Route path="/cart/:id?" component={CartScreen}></Route>
           <Route path="/login" component={LoginScreen}></Route>
           <Route path="/register" component={RegisterScreen}></Route>
