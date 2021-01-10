@@ -13,8 +13,6 @@ import {
   Form,
   Card,
 } from "react-bootstrap";
-import { useState } from "react";
-import { set } from "mongoose";
 
 function CartScreen({ match, location, history }) {
   const cart = useSelector((state) => state.cart);
